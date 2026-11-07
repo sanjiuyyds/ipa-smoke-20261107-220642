@@ -15,7 +15,7 @@ Smoke220642.xcodeproj/              Xcode 工程（手写 pbxproj，无 Mac 也�
 ```bash
 git init
 git branch -M main
-git remote add origin https://github.com/<YOU>/ipa-smoke-20261107-220642.git
+git remote add origin https://github.com/<YOU>/smoke220642.git
 git add -A
 git commit -m "init"
 git push -u origin main
@@ -25,7 +25,7 @@ git push -u origin main
 ```bash
 curl -X POST -H "Authorization: Bearer <TOKEN>" \
   -H "Accept: application/vnd.github+json" \
-  https://api.github.com/repos/<YOU>/ipa-smoke-20261107-220642/actions/workflows/build.yml/dispatches \
+  https://api.github.com/repos/<YOU>/smoke220642/actions/workflows/build.yml/dispatches \
   -d '{"ref":"main"}'
 ```
 
